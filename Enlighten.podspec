@@ -35,9 +35,10 @@ Pod::Spec.new do |s|
 
   s.source_files     = 'Source/**/*.swift'
   s.swift_version    = "4.2"
+  s.resources = "Source/**/*.xcassets"
 
   # ――― Dependencies ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.dependency 'Down'
+  s.dependency 'Down', '0.8.2'
 
 end
